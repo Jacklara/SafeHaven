@@ -1,0 +1,165 @@
+body {
+  margin: 0 auto;
+  background-color: #D8D8D6;
+}
+
+h1 {
+  padding-top: 100px;
+  padding-bottom: 30px;
+  margin-top: 0;
+  color: #D8D8D6;
+}
+
+h2 {
+  color: #D8D8D6;
+}
+
+
+
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+ul {
+  list-style-type: none;
+  background-color: #A4BDBE;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+li {
+  float: left;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: black;
+  font-family: 'Abel', sans-serif;
+  text-decoration: none;
+  text-align: center;
+  font-size: 25px;
+  padding: 10px 20px}
+
+a:hover {
+  color: white;  
+
+}
+
+
+
+.heroOne {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/helpinghand.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  min-height: 700px;
+}
+
+img {
+  overflow: hidden;
+  display: block;
+  margin: 0 auto;
+  max-width: 600px;
+  height: auto;
+}
+
+.service1 {
+    margin-top: 30px;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 20px;
+    background-color: #D5B9B1;
+    text-align: center;
+    line-height: 1.6;
+    box-shadow: 3px 3px grey;
+}
+
+.service2 {
+    margin-top: 30px;
+    margin-right: 150px;
+    margin-right: 150px;
+    padding: 20px;
+    background-color: #D5B9B1;
+    text-align: center; 
+    line-height: 1.6;
+    box-shadow: 3px 3px grey; 
+}
+
+
+section {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+@media screen and (max-width: 1600px) {
+  .heroOne {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/helpinghand.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .service2 {
+    margin-left: 150px;
+  }
+}
+
+.footer-social-icons{
+    text-align: center;
+    font-size: 20px;
+    background-color:#739086;
+    padding: 10px;
+}
+.footer-social-icons p{
+    text-align: center;
+    color: black;
+}
+.fab{
+    color: black;
+    font-size: 20px;
+    margin: 10px;
+}
+
+
+
+
+
+@media screen and (max-width: 500px) {
+    .heroOne {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/helpinghand.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;  
+    }
+
+    .section {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .service1 , .service2 {
+      margin-left: 10px;
+      margin-right: 10px;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
+    img {
+      max-width: 300px;  
+    }
+
+
+}
