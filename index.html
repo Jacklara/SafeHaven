@@ -3,21 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="Safe Haven home page.">
     <title>SafeHaven</title>
     <link rel="stylesheet" type="text/css" href="home.css">
+    <script src="https://kit.fontawesome.com/4f8f4e9325.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css"
+        href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+    <nav class="sticky">
+        <ul id="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Resources.html">Resources</a></li>
+            <li><a href="donate.html">Donate</a></li>
+            <li><a href="hotspots.html">HotSpots</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="https://www.google.com/">EXIT</a></li>
+        </ul>
+    </nav>
+
     <header>
-        <nav class="sticky">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="Resources.html">Resources</a></li>
-                <li><a href="donate.html">Donate</a></li>
-                <li><a href="hotspots.html">HotSpots</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="https://www.google.com/">EXIT</a></li>
-            </ul>
-        </nav>
+        <div id="logo">
+            <img src="/Images/safehavenlogo.jpg" alt="safe haven logo">
+        </div>
     </header>
+
+    <main>
+        <div id="mission">
+            <h1>Our Mission</h1>
+            <P>According to the National Human Trafficking Resource Center, there is now an average of 78 sex trafficing cases every year in North Carolina, and Charlotte is the #1 city. This matters because there are so many people who have been affected and are looking for advocacy and support. Human Trafficking is rampant in the Charlotte area and raising awareness could mean the difference in saving someone’s life.</P>
+        </div>
+
+        <div class="items">
+            <div id="donate">
+                <h2>Donate Today</h2><br>
+                <p>By giving to these organizations you are helping to continue the spread of information. As well as continue to provide the much needed help that victims may need.</p>
+            </div>
+
+            <div id="defense">
+                <h2>Self Defense</h2><br>
+                <p>Having a few self defense skills under your belt could help you feel safer when going out. For more information about this program go on to the resources page for more information.</p>
+            </div>
+
+            <div id="inform">
+                <h2>Staying Informed</h2><br>
+                <p>Even though it is never the victums fault when they are attacked, people still have to take percautions by staying informed. And we have the neccisary information on our website.</p>
+            </div>
+        </div>
+
+        <div class="items">
+            <div id="informpic">
+                <img src="/Images/signup.png" alt="sign up">
+                <h3>To Recieve Notifications</h3>
+                <br>
+                <form>
+                    <label for="email">Email</label>
+                    <input type="Email" id="email" name="email" required>
+                </form>
+            </div>
+        </div>
+
+        <footer>
+            <div class="footer-social-icons">
+                <h3>Crisis Line:1-888-373-7888</h3>
+                <p>Terms and Conditions | &copy;Safehaven.com | Email:Safehaven@gmail.com | Tele:+1704-123-4567 | All Rights Reserved|
+                </p>
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-snapchat"></i>
+            </div>
+        </footer>
+    </main>
 </body>
 </html>
